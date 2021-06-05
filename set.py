@@ -1,0 +1,10 @@
+s = set()
+print(type(s))
+s_list = set([1, 2, 3, 4])
+print(s_list)
+print(type(s_list))
+s.add(1)
+# if i add 1 again it will be unchanged beacuse set takes unique element
+print(s)
+s_list.add(6)
+print(s_list)
